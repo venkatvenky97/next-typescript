@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+}
+
+.media-row {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+.media-row::-webkit-scrollbar {
+  display: none;
+}
+
+.watch {
+  margin: 10px;
+}
